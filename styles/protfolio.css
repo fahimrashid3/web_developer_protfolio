@@ -99,6 +99,10 @@ nav a{
 }
 
 /*main section style*/
+main{
+    max-width: 1140px;
+    margin:0 auto;
+}
 
 /*about section style*/
 .about{
@@ -106,4 +110,41 @@ nav a{
     background-color: #FFF8F3;
     margin: 130px 0;
     
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    padding-bottom: 0%;
+}
+.about-info{
+    text-align: center;
+}
+.info-title{
+    font-weight: normal;
+}
+.info-discription{
+    font-weight: bold;
+}
+
+/* what i do */
+#what-i-do-driscription{
+    padding: 30px 150px;
+
+}
+
+.skills-container{
+    display: flex;
+    margin: 30px;
+}
+.skill{
+    align-items: center;
+}
+.icon-what-i-do{
+    height: 50px;
+}
+.skill-discription{
+    margin: 10px;
+   
 }
