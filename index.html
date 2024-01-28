@@ -5,13 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web developer protfolio</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+<!-- google font setup -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;0,800;1,400&display=swap" rel="stylesheet">
 
-
-
+    <!-- css style page linked -->
+    
     <link rel="stylesheet" href="styles/protfolio.css">
+
+
+    <!-- font awesome link setup -->
+    <script src="https://kit.fontawesome.com/3bdf4b4403.js" crossorigin="anonymous"></script>
+
+
+
+
 </head>
 <body>
 
@@ -41,8 +51,8 @@
           <p class="banner-discription">Shot what able cold new see hold. Griendly as an 
             betrayed formerly he.Mornig because as to society 
             behaved moments.</p>
-            <button class="btn-primary">Download CV</button>
-            <button class="btn-primary">Contact</button>
+            <button class="btn-primary"><i class="fa-solid fa-download"></i> Download CV</button>
+            <button class="btn-primary"><i class="fa-solid fa-phone"></i> Contact</button>
         </div>
         <img class="profile-pic" src="image/fhaim.png" alt="">
 
@@ -69,19 +79,23 @@
             <!-- information -->
             <div class="about-info-container">
                 <div class="about-info">
-                    <h4 class="info-title">Name</h4>
+                    <!-- <h4 class="info-title">Name</h4> -->
+                    <img class="user-info-icon" src="image/icons/name.png" alt="">
                     <p class="info-discription">Fahim Rashid</p>
                 </div>
                 <div class="about-info">
-                    <h4 class="info-title">Email</h4>
+                    <!-- <h4 class="info-title">Email</h4> -->
+                    <img class="user-info-icon" src="image/icons/email.png" alt="">
                     <p class="info-discription">fahimrashid350@gmail.com</p>
                 </div>
                 <div class="about-info">
-                    <h4 class="info-title">Phone</h4>
+                    <!-- <h4 class="info-title">Phone</h4> -->
+                    <img class="user-info-icon" src="image/icons/phone.png" alt="">
                     <p class="info-discription">+8801405819175</p>
                 </div>
                 <div class="about-info">
-                    <h4 class="info-title">From</h4>
+                    <!-- <h4 class="info-title">From</h4> -->
+                    <img class="user-info-icon" src="image/icons/home.png" alt="">
                     <p class="info-discription">Dhaka, Bangladesh</p>
                 </div>
             </div>
@@ -227,7 +241,7 @@
             </div>
         </div>
         <div class="download-cv">
-            <button class="btn-primary">Download CV</button>
+            <button class="btn-primary"><i class="fa-solid fa-download"></i> Download CV</button>
         </div>
 
      </section>   
@@ -256,7 +270,7 @@
             <form class="contact" action="">
                 <input type="text" placeholder="Your name">
                 <input type="email" name="" placeholder="Your email" id="">
-                <textarea name="" placeholder="Message" id="" cols="30" rows="10"></textarea>
+                <textarea class="footer-message" name="" placeholder="Message" id="" cols="30" rows="10"></textarea>
                 <input id="footer-btn" class="btn-primary" type="submit" value="submit">
             </form>
         </div>

@@ -115,6 +115,11 @@ main section{
     margin: 130px 0;
     
 }
+
+
+.user-info-icon{
+    width: 50px;
+}
 .about-info-container{
     display: flex;
     justify-content: space-around;
@@ -154,9 +159,11 @@ main section{
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 
 }
+
 .icon-what-i-do{
     height: 50px;
 }
+
 .skill-description{
     margin: 10px;
     color: #757575;
@@ -198,11 +205,11 @@ main section{
 .resume-container hr{
     margin: 30px;
 }
+
 .download-cv{
     text-align: center;
     margin-top: 50px;
 }
-
 
 /* footer style start */
 footer{
@@ -218,6 +225,7 @@ footer{
     margin-right: 25px;
     align-items: center;
 }
+
 .footer-column{
     width: 50%;
 }
@@ -232,6 +240,7 @@ footer{
     background: #FFF;
     color: #757575;
 }
+
 #footer-btn{
     margin-top: 25px;
 }
