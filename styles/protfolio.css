@@ -202,3 +202,36 @@ main section{
     text-align: center;
     margin-top: 50px;
 }
+
+
+/* footer style start */
+footer{
+    margin-top: 110px;
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+}
+
+.footer-icon{
+    width: 40px;
+    margin-right: 25px;
+    align-items: center;
+}
+.footer-column{
+    width: 50%;
+}
+
+.contact input[type="text"], .contact input[type="email"], textarea{
+    display: block;
+    margin-top: 25px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    background: #FFF;
+    color: #757575;
+}
+#footer-btn{
+    margin-top: 25px;
+}
